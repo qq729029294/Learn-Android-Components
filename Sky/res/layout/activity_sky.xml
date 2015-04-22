@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkyActivity" >
+
+    <Button
+        android:id="@+id/intent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/intent" />
+
+    <Button
+        android:id="@+id/broadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/intent"
+        android:text="@string/broadcast" />
+
+    <Button
+        android:id="@+id/extends_binder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/broadcast"
+        android:text="@string/extends_binder" />
+
+    <Button
+        android:id="@+id/messager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/extends_binder"
+        android:text="@string/messager" />
+
+    <Button
+        android:id="@+id/static_method"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/messager"
+        android:text="@string/static_method" />
+
+    <Button
+        android:id="@+id/moon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/static_method"
+        android:text="@string/moon" />
+
+    <EditText
+        android:id="@+id/editShowText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/moon"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:text="@string/app_name" />
+
+</RelativeLayout>

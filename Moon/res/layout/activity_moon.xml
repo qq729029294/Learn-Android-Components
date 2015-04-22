@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/moon_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoonActivity" >
+
+    <Button
+        android:id="@+id/intent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/intent" />
+
+    <Button
+        android:id="@+id/aidl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/messager"
+        android:text="@string/aidl" />
+
+    <Button
+        android:id="@+id/broadcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/intent"
+        android:text="@string/broadcast" />
+
+    <Button
+        android:id="@+id/messager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/broadcast"
+        android:text="@string/messager" />
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/aidl"
+        android:layout_alignBottom="@+id/aidl"
+        android:layout_alignLeft="@+id/broadcast"
+        android:text="@string/insert" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/broadcast"
+        android:layout_toRightOf="@+id/insert"
+        android:text="@string/delete" />
+
+    <Button
+        android:id="@+id/show_vote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/messager"
+        android:layout_toRightOf="@+id/delete"
+        android:text="@string/show_vote" />
+
+    <Button
+        android:id="@+id/sky"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="19dp"
+        android:text="@string/sky" />
+
+    <EditText
+        android:id="@+id/editShowText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/aidl"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:text="@string/app_name" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/aidl_bitmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/intent_bitmap"
+        android:layout_alignBottom="@+id/intent_bitmap"
+        android:layout_toRightOf="@+id/insert"
+        android:text="@string/aidl_bitmap" />
+
+    <Button
+        android:id="@+id/aidl_contentprovider_bitmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/intent_bitmap"
+        android:text="@string/aidl_contentprovider_bitmap" />
+
+    <Button
+        android:id="@+id/load_url_bitmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/aidl_contentprovider_bitmap"
+        android:text="@string/load_url_bitmap" />
+
+    <Button
+        android:id="@+id/intent_bitmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editShowText"
+        android:layout_marginTop="15dp"
+        android:text="@string/intent_bitmap" />
+
+    <EditText
+        android:id="@+id/urlEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/load_url_bitmap"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="textUri"
+        android:text="@string/default_load_url2" />
+
+</RelativeLayout>

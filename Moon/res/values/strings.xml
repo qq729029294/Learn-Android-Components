@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Moon</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="intent">intent</string>
+    <string name="broadcast">broadcast</string>
+    <string name="messager">messager</string>
+    <string name="aidl">aidl</string>
+    <string name="sky">sky</string>
+    <string name="insert">insert</string>
+    <string name="delete">delete</string>
+    <string name="show_vote">show vote</string>
+    <string name="aidl_bitmap">aidl bitmap</string>
+    <string name="aidl_contentprovider_bitmap">aidl contentprovider bitmap</string>
+    <string name="intent_bitmap">intent bitmap</string>
+    <string name="default_load_url">http://img3.imgtn.bdimg.com/it/u=1256763959,1909269676&amp;fm=21&amp;gp=0.jpg</string>
+    <string name="load_url_bitmap">load url bitmap</string>
+    <string name="default_load_url2">http://img3.imgtn.bdimg.com/it/u=1256763959,1909269676&amp;fm=21&amp;gp=0.jpg</string>
+    <string name="default_load_url3">http://img3.imgtn.bdimg.com/it/u=1256763959,1909269676&amp;fm=21&amp;gp=0.jpg</string>
+
+</resources>
